@@ -1,7 +1,7 @@
 import Image1 from "../images/home-background.png"
 import Image2 from "../images/message.png"
 import Image3 from "../images/mobile.png"
-import Image4 from "../images/Frame.png"  
+import Image4 from "../images/Frame25.png"  
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter ,FaAngleUp } from "react-icons/fa"
 import "../styles/home.scss"
 import Navbar from "./Navbar"
