@@ -3,7 +3,7 @@ const Footer = () => {
 
     return ( 
         <section className="footer">
-              Copyright  &copy; 2022 Dali Ben Helal All rights reserved
+              <p>Copyright  &copy; 2022 Dali Ben Helal All rights reserved</p>
         </section>
     );
 }

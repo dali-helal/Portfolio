@@ -53,6 +53,7 @@ const Contact = () => {
                         placeholder="Enter message"
                         name="message"
                         required
+                        rows={6}
                     />
                 <button type="submit">Send Message</button>
                 </form>

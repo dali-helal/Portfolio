@@ -1,5 +1,5 @@
 .skills{
-    padding: 2rem 4.5rem;
+    padding: 2rem 8vw;
     min-height: 100vh;
     margin-top: 2rem;
     h1{
@@ -20,7 +20,7 @@
             font-weight: 700;
             color: #439CEF;
             font-size: 1.5rem;
-            margin-bottom:1.5rem;
+            margin-bottom:1rem;
         }
         p{
             font-family: 'Public Sans', sans-serif;
@@ -50,20 +50,30 @@
 @media(min-width :700px ) and (max-width:1024px){
     
     .skills{
+        padding: 1rem 1.5rem;
         h1{
             padding: 0 ;
-            font-size: 1.8rem ;
+            font-size: 3rem ;
         }
         .container-skills {
-            margin-top: 1.5rem ;
+            margin-top: 3rem ;
+            h3{
+              
+                font-size: 2rem;
+                margin-bottom:1.5rem;
+            }
+            p{
+                font-size: 1.5rem;
+               
+            }
         }
         .container{
             flex-direction: column-reverse;
             padding :0;
         }
         .container-icons .icons{
-            height: 1.15rem;
-            width: 1.15rem;
+            height: 2rem;
+            width: 2rem;
         }
         .container-img-skills{
             width: 100%;
@@ -77,8 +87,10 @@
         }
     } 
 }
+
 @media(min-width :281px ) and (max-width:680px){
     .skills {
+        padding: 1rem 1.2rem;
         h1{
             padding: 0 ;
             font-size: 1.8rem ;
@@ -91,8 +103,8 @@
             padding :0;
         }
         .container-icons .icons{
-            height: 1.15rem;
-            width: 1.15rem;
+            height: 1.7rem;
+            width: 1.7rem;
         }
         .container-img-skills{
             width: 100%;
@@ -109,8 +121,8 @@
  @media (max-width :280px ){
     
     .skills{
-        padding: 1rem 1.2rem;
-        margin-top: 6rem;
+        padding: 1rem 0.5rem;
+        margin-top: 3rem;
         .container{
             flex-direction: column-reverse;
             padding :0rem ;
