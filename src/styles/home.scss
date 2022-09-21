@@ -1,0 +1,159 @@
+.home {
+    padding: 2rem 4.5rem;
+    min-height: 100vh;
+    position: relative;
+
+    .background-img {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        width: 65%;
+        height: 100%;
+        
+    }
+
+    .conatainer {
+        margin-top: 7rem;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        h2 {
+            font-family: 'Dancing Script', cursive;
+            font-weight: 700;
+            font-size: 4.5rem;
+            color: #439CEF;
+        }
+
+        h4 {
+            font-family: 'Public Sans', sans-serif;
+            font-size: 1.5rem;
+            color: #777777;
+            font-style: SemiBlod;
+            margin-top: 1rem;
+        }
+
+        a {
+            text-decoration: none;
+        }
+    }
+
+    .conatainer a button {
+        padding: 0.8rem 1.5rem;
+        margin-top: 1.5rem;
+        background: #439CEF;
+        color: aliceblue;
+        border: none;
+        display: flex;
+        align-items: center;
+        border-radius: 10px;
+        transition: 0.3s;
+    }
+
+    .conatainer a button:hover {
+        transform: scale(1.02);
+        cursor: pointer;
+    }
+
+    .conatainer a button img {
+        transform: scale(0.7);
+    }
+
+    .folow-desktop {
+        z-index: 999;
+        margin-right: 10%;
+        padding: 1.4rem;
+
+        h3 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2.5rem;
+            color: white;
+            margin-bottom: 0.5rem;
+        }
+    }
+
+    .home-icon {
+        color: white;
+        height: 1.5rem;
+        width: 1.5rem;
+        margin-right: 0.5rem;
+    }
+
+    .mobile-img {
+        display: none;
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        height: 11.75rem;
+        width: 11rem;
+    }
+
+    .mobile2-img {
+        display: none;
+        height: 35%;
+        width: 85%;
+        position: absolute;
+        left: 0;
+        bottom: 0
+    }
+
+    .folow-mobile {
+        display: none;
+        position: absolute;
+        height: 22%;
+        width: 85%;
+        position: absolute;
+        left: 12%;
+        bottom: 0;
+        z-index: 99;
+
+        h3 {
+            font-family: 'Dancing Script', cursive;
+            font-size: 2rem;
+            margin-bottom: 0.3rem;
+            color: #ffffff;
+        }
+    }
+    .scroll{
+        background: #439CEF;
+        position: fixed;
+        right: 2rem;
+        bottom: 2rem;
+        padding: 0.4rem 0.4rem ;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 3px;
+        transition: 0.4s;
+    }
+    .hidden{
+        opacity: 0;
+    }
+}
+@media(min-width :281px ) and (max-width:680px){
+     .home{
+        padding: 1rem 2rem;
+        .background-img{
+            display: none;
+        }
+        .mobile-img,.mobile2-img{
+            display: block;
+        }
+        .folow-mobile{
+            display: block;
+        }
+        .folow-desktop{
+            display: none;
+        }
+        .conatainer{
+            margin-top :50%;
+             h2{
+                font-size: 2.5rem;
+            }
+            h4{
+                font-size: 1rem;
+            }
+        }
+     }
+ 
+}

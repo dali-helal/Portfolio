@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Public+Sans&display=swap');
+
+
+$Color1 : #439CEF ;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+    scroll-behavior: smooth;
+}
+body{
+    background: #f4f4f4;
+}
+
+@import "./nav.scss" ;
+@import "./contact.scss";
+@import "./projects.scss";
+@import "./skills.scss";
+@import "./home.scss";
+@import "./footer.scss"
