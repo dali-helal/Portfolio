@@ -32,7 +32,6 @@ const Contact = () => {
                     <FaCheck color="white" />
                 </div>
                 <p>  Email has been sent successfully</p>
-                <FaTimes className="Time-icon"  onClick={handleMessage} size={"18px"} />
             </div>
             <div className="container-contact">
                 <form ref={form} onSubmit={sendEmail} autoComplete="off"> 
