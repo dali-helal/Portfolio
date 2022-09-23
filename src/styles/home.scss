@@ -71,16 +71,6 @@
             margin-bottom: 0.5rem;
         }
     }
-
-    .home-icon {
-        color: white;
-        height: 1.8rem;
-        width: 1.8rem;
-        margin-right: 1rem;
-        z-index: 999999;
-        cursor: pointer;
-    }
-
     .mobile-img {
         display: none;
         position: absolute;
@@ -116,9 +106,7 @@
             margin-bottom: 0.8rem;
             color: #ffffff;
         }
-        .folow-icons{
-            z-index: 999;
-        }
+ 
     }
     .scroll{
         background: #439CEF;
@@ -137,6 +125,13 @@
     .hidden{
         opacity: 0;
     }
+    .home-icon{
+        height: 2rem;
+        width: 2rem;
+        margin: 0.5rem 0.3rem;
+        color: white;
+    }
+    
 }
 
 @media(min-width :700px ) and (max-width:1024px){

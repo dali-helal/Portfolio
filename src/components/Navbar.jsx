@@ -2,6 +2,7 @@ const Navbar = () => {
   const handleClick=()=>{
     document.querySelector(".mobile-nav").classList.toggle("open")
     document.querySelector(".bars").classList.toggle("clicked");
+    document.querySelector(".blur-screen").classList.toggle("change");
    }
   return (
     <section>
@@ -30,6 +31,7 @@ const Navbar = () => {
           <div className="bar"></div>
           <div className="bar"></div>
         </div>
+        <div className="blur-screen"></div>
       </nav>
     </section>
   )

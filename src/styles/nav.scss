@@ -31,6 +31,17 @@ nav{
         color :$Color1 ;
         font-family: 'Dancing Script', cursive;
     }
+    .change{
+        background-color: black;
+        opacity: 0.3;
+    }
+    .blur-screen{
+        position: fixed;
+        top:0px ;
+        left: 0px;
+        width: 100%;
+        height: 100vh;
+    }
 }
 
 @media(min-width :280px ) and (max-width:1024px){
