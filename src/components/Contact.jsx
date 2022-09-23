@@ -4,7 +4,6 @@ import { useRef } from "react"
 import emailjs from '@emailjs/browser';
 import { FaTimes, FaCheck } from "react-icons/fa"
 const Contact = () => {
-    let ch = "<Section id='Contact'/>"
     const handleMessage = () => {
         document.querySelector('.user-message').classList.toggle('displayMessage')
         setTimeout(()=>{
@@ -26,7 +25,7 @@ const Contact = () => {
       };
     return (
         <section className="contact" id="contact" >
-            <h1>{ch}</h1>
+            <h1>{"<Section id='Contact'/>"}</h1>
             <div className="user-message">
                 <div className="check">
                     <FaCheck color="white" />

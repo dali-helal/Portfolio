@@ -74,9 +74,11 @@
 
     .home-icon {
         color: white;
-        height: 1.5rem;
-        width: 1.5rem;
-        margin-right: 0.5rem;
+        height: 1.8rem;
+        width: 1.8rem;
+        margin-right: 1rem;
+        z-index: 999999;
+        cursor: pointer;
     }
 
     .mobile-img {
@@ -94,7 +96,8 @@
         width: 85%;
         position: absolute;
         left: 0;
-        bottom: 0
+        bottom: 0;
+        z-index :1;
     }
 
     .folow-mobile {
@@ -103,15 +106,18 @@
         height: 22%;
         width: 85%;
         position: absolute;
-        left: 12%;
+        padding: 1rem 0.9rem;
         bottom: 0;
         z-index: 99;
 
         h3 {
             font-family: 'Dancing Script', cursive;
             font-size: 2rem;
-            margin-bottom: 0.3rem;
+            margin-bottom: 0.8rem;
             color: #ffffff;
+        }
+        .folow-icons{
+            z-index: 999;
         }
     }
     .scroll{

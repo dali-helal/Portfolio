@@ -3,10 +3,9 @@ import image1 from "../images/project1.PNG"
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaNodeJs,FaGithub,FaEye } from "react-icons/fa"
 import {SiRedux } from "react-icons/si"
 const Projects = () => {
-    let ch = "<Section id='Projects'/>"
     return (
         <section className="projects" id="projects" >
-            <h1>{ch}</h1>
+            <h1>{"<Section id='Projects'/>"}</h1>
             <div className="container-projects">
                 <div className="project">
                     <img src={image1} alt="" />

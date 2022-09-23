@@ -2,7 +2,7 @@ import Image1 from "../images/home-background.png"
 import Image2 from "../images/message.png"
 import Image3 from "../images/mobile.png"
 import Image4 from "../images/Frame25.png"  
-import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter ,FaAngleUp } from "react-icons/fa"
+import { FaFacebook, FaGithub, FaLinkedin, FaTwitter ,FaAngleUp } from "react-icons/fa"
 import "../styles/home.scss"
 import Navbar from "./Navbar"
 import { useEffect } from "react";
@@ -37,20 +37,33 @@ const Home=()=>{
          <div className="folow-desktop">
           <h3>Follow me on :</h3>
           <div className="folow-icons">
-                <FaFacebook className="home-icon"/>
-                <FaInstagram  className="home-icon"/>
-                <FaTwitter className="home-icon"/>
+          <a href="https://www.facebook.com/dali.hlal.9/">
+                 <FaFacebook className="home-icon"/>
+                 </a>
+                <a href="https://github.com/dali-helal">
+                <FaGithub className="home-icon"/>
+                </a>
+           
+                <a href="https://www.linkedin.com/in/mohamed-ali-helal-a00586236/">
                 <FaLinkedin  className="home-icon"/>
+                </a>
             </div>
          </div>
       </div>
       <div className="folow-mobile">
           <h3>Follow me on :</h3>
           <div className="folow-icons">
-                <FaFacebook className="home-icon"/>
-                <FaInstagram  className="home-icon"/>
-                <FaTwitter className="home-icon"/>
+                 <a href="https://www.facebook.com/dali.hlal.9/">
+                 <FaFacebook className="home-icon"/>
+                 </a>
+                <a href="https://github.com/dali-helal">
+                <FaGithub className="home-icon"/>
+                </a>
+           
+                <a href="https://www.linkedin.com/in/mohamed-ali-helal-a00586236/">
                 <FaLinkedin  className="home-icon"/>
+                </a>
+               
             </div>
          </div>
       <img className="mobile2-img" src={Image4} alt="" />

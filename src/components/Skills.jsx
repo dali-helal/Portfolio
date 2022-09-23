@@ -3,11 +3,10 @@ import "../styles/skills.scss"
 import { FaReact, FaHtml5, FaCss3Alt, FaJs, FaGitAlt, FaNodeJs } from "react-icons/fa"
 import { SiMongodb, SiRedux } from "react-icons/si"
 const Skills = () => {
-  let ch = "<Section id='Skills'/>"
   return (
     <section className="skills" id="skills" >
 
-      <h1>{ch}</h1>
+      <h1>{"<Section id='Skills'/>"}</h1>
       <div className="container">
         <div className="container-img-skills">
           <img src={Image1} alt="" />
