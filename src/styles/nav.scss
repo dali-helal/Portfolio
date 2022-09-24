@@ -36,13 +36,14 @@ nav{
         opacity: 0.3;
     }
     .blur-screen{
-        position: fixed;
+        position: absolute;
         top:0px ;
         left: 0px;
         width: 100%;
         height: 100vh;
-        z-index: 222;
         transition: 0.4s;
+        z-index: 222;
+        visibility: hidden;
     }
 }
 
