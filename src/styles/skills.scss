@@ -90,21 +90,24 @@
 
 @media(min-width :281px ) and (max-width:680px){
     .skills {
-        padding: 1rem 1.2rem;
+        padding: 1rem 1.5rem;
         h1{
             padding: 0 ;
             font-size: 1.8rem ;
         }
         .container-skills {
-            margin-top: 1.5rem ;
+            margin-top: 2rem ;
+            h3{
+                text-align: center;
+            }
         }
         .container{
             flex-direction: column-reverse;
             padding :0;
         }
         .container-icons .icons{
-            height: 1.7rem;
-            width: 1.7rem;
+            height: 2rem;
+            width: 2rem;
         }
         .container-img-skills{
             width: 100%;

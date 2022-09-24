@@ -25,7 +25,7 @@ const Contact = () => {
       };
     return (
         <section className="contact" id="contact" >
-            <h1>{"<Section id='Contact'/>"}</h1>
+            <h1>{"<Section id=\"Contact\"/>"}</h1>
             <div className="user-message">
                 <div className="check">
                     <FaCheck color="white" />

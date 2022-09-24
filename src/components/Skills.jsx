@@ -6,7 +6,7 @@ const Skills = () => {
   return (
     <section className="skills" id="skills" >
 
-      <h1>{"<Section id='Skills'/>"}</h1>
+      <h1>{"<Section id=\"Skills\"/>"}</h1>
       <div className="container">
         <div className="container-img-skills">
           <img src={Image1} alt="" />

@@ -5,7 +5,7 @@ import {SiRedux } from "react-icons/si"
 const Projects = () => {
     return (
         <section className="projects" id="projects" >
-            <h1>{"<Section id='Projects'/>"}</h1>
+            <h1>{"<Section id=\"Projects\"/>"}</h1>
             <div className="container-projects">
                 <div className="project">
                     <img src={image1} alt="" />

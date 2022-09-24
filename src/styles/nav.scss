@@ -48,13 +48,12 @@ nav{
 
 @media(min-width :280px ) and (max-width:1024px){
   nav{
-    padding:1.5rem 1rem;
+    padding:1.5rem 1.1rem;
     .desktop-nav{
         display: none;
     }
     .mobile-nav.open{
-        width: 42%;
-    
+        width: 40%;
     }
     .bars.clicked{
         
@@ -107,6 +106,7 @@ nav{
         z-index: 1010;
         position: relative;
         transition: .5s;
+       
         .bar{
             background:white;
             width:100%;
